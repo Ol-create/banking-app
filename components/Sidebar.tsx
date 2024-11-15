@@ -11,7 +11,7 @@ import { sidebarLinks } from '@/constants'
 const Sidebar = ({ user }: SiderbarProps) => {
   const pathname = usePathname();
   return (
-    <section >
+    <section className='sidebar'>
         <nav className='flex flex-col gap-4'>
             <Link
               href="/"
